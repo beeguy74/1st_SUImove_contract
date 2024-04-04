@@ -1,4 +1,8 @@
 {
+  "type":"module",
+  "scripts": {
+    "start": "node --env-file=.env app.js"
+  },
   "dependencies": {
     "@mysten/sui.js": "^0.51.2"
   }
